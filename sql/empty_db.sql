@@ -44,22 +44,30 @@ CREATE TABLE IF NOT EXISTS `learning_data` (
 `EXP` varchar(20) NOT NULL,
 `EXPID` varchar(20) NOT NULL,
 `ID` varchar(100) NOT NULL,
-`SESSION` int(11) NOT NULL,
+`TEST` int(11) NOT NULL,
 `TRIAL` int(11) NOT NULL,
-`P1` double NOT NULL,
-`P2` double NOT NULL,
-`MAG` double NOT NULL,
-`VAL` tinyint(4) NOT NULL,
-`INF` tinyint(4) NOT NULL,
-`OP1` int(11) NOT NULL,
-`OP2` int(11) NOT NULL,
-`INV` tinyint(4) NOT NULL,
-`CTIME` bigint(20) NOT NULL,
+`COND` int(11) NOT NULL,
+`SYML` int(11) NOT NULL,
+`SYMR` int(11) NOT NULL,
 `CLR` tinyint(4) NOT NULL,
 `CGB` tinyint(4) NOT NULL,
 `RGB` tinyint(4) NOT NULL,
 `CFGB` tinyint(4) NOT NULL,
 `RTIME` bigint(20) NOT NULL,
+`REW` double NOT NULL,
+`SESSION` int(11) NOT NULL,
+`P1` double NOT NULL,
+`P2` double NOT NULL,
+`MAG1` double NOT NULL,
+`MAG2` double NOT NULL,
+`VAL` tinyint(4) NOT NULL,
+`INF` tinyint(4) NOT NULL,
+`OP1` int(11) NOT NULL,
+`OP2` int(11) NOT NULL,
+`V1` double NOT NULL,
+`V2` double NOT NULL,
+`INV` tinyint(4) NOT NULL,
+`CTIME` bigint(20) NOT NULL,
 `DBTIME` time NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -69,10 +77,11 @@ CREATE TABLE IF NOT EXISTS `learning_data` (
 -- Table structure for table `post_learning_data`
 --
 
-CREATE TABLE IF NOT EXISTS `post_learning_data` (
+/*CREATE TABLE IF NOT EXISTS `post_learning_data` (
 `EXP` varchar(20) NOT NULL,
 `EXPID` varchar(20) NOT NULL,
 `ID` varchar(100) NOT NULL,
+`TEST` int(11) NOT NULL,
 `TRIAL` int(11) NOT NULL,
 `OP1` int(11) NOT NULL,
 `OP2` int(11) NOT NULL,
@@ -83,7 +92,7 @@ CREATE TABLE IF NOT EXISTS `post_learning_data` (
 `CGB` tinyint(4) NOT NULL,
 `RTIME` bigint(20) NOT NULL,
 `DBTIME` time NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;*/
 
 -- --------------------------------------------------------
 
@@ -96,6 +105,7 @@ CREATE TABLE IF NOT EXISTS `questionnaire_data` (
 `EXPID` varchar(20) NOT NULL,
 `ID` varchar(100) NOT NULL,
 `QUESTIONNAIRE` varchar(20) NOT NULL,
+`NUMBER` int(11) NOT NULL,
 `ITEM` int(11) NOT NULL,
 `ANSWER` int(11) NOT NULL,
 `VAL` int(11) NOT NULL,

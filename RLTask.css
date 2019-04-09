@@ -1,0 +1,19 @@
+.Main {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #DDDDDD;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.DivElements {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+
+/* #Top{ */
+/*     height:, thisHeight / 20); */
+/* $('#Stage').css('width', DispWidth); */
+/* $('#Stage').css('min-height', thisHeight * 17 / 20); */
+/* $('#Bottom').css('min-height', thisHeight / 20); */
