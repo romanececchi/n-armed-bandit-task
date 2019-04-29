@@ -1,0 +1,3 @@
+experiment_data $ EXP: ExpeMag_i1pf $ EXPID: 1039402203 $ ID: Sophie $ BROW: Windows - Chrome 70.0.3538.110 70 Netscape Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36 $ dbcall success 
+learning_data $ EXP: ExpeMag_i1pf $ EXPID: 1039402203 $ ID: Sophie $ SESSION: -1 $ TRIAL: 0 $ P1: 0.75 $ P2: 0.25 $ MAG: 1 $ VAL: 1 $ INF: 0 $ OP1: 1 $ OP2: 11 $ INV: 0 $ CTIME: 2329 $ CLR: -1 $ CGB: 1 $ RGB: 0 $ CFGB: 0 $ RTIME: 1133 $ dbcall success 
+learning_data $ EXP: ExpeMag_i1pf $ EXPID: 1039402203 $ ID: Sophie $ SESSION: -1 $ TRIAL: 1 $ P1: 0.75 $ P2: 0.25 $ MAG: 0.1 $ VAL: 1 $ INF: 0 $ OP1: 18 $ OP2: 8 $ INV: 1 $ CTIME: 5970 $ CLR: -1 $ CGB: 0 $ RGB: 0 $ CFGB: 1 $ RTIME: 827 $ dbcall success 

@@ -1,0 +1,7 @@
+experiment_data $ EXP: a $ EXPID: a $ ID: a $ BROW: a $ dbcall success 
+learning_data $ EXP: a $ EXPID: a $ ID: a $ SESSION: -1 $ TRIAL: 0 $ P1: 0.75 $ P2: 0.25 $ MAG: 1 $ VAL: 1 $ INF: 0 $ OP1: 4 $ OP2: 7 $ INV: 1 $ CTIME: 2237 $ CLR: -1 $ CGB: 0 $ RGB: 0 $ CFGB: 1 $ RTIME: 1087 $ dbcall success 
+learning_data $ EXP: a $ EXPID: a $ ID: a $ SESSION: -1 $ TRIAL: 1 $ P1: 0.75 $ P2: 0.25 $ MAG: 0.1 $ VAL: 1 $ INF: 0 $ OP1: 16 $ OP2: 10 $ INV: 0 $ CTIME: 5833 $ CLR: -1 $ CGB: 1 $ RGB: 1 $ CFGB: 0 $ RTIME: 816 $ dbcall success 
+learning_data $ EXP: a $ EXPID: a $ ID: a $ SESSION: 0 $ TRIAL: 0 $ P1: 0.75 $ P2: 0.25 $ MAG: 0.1 $ VAL: 1 $ INF: 0 $ OP1: 8 $ OP2: 22 $ INV: 0 $ CTIME: 17172 $ CLR: -1 $ CGB: 1 $ RGB: 1 $ CFGB: 1 $ RTIME: 209 $ dbcall success 
+learning_data $ EXP: a $ EXPID: a $ ID: a $ SESSION: 0 $ TRIAL: 1 $ P1: 0.75 $ P2: 0.25 $ MAG: 0.1 $ VAL: 1 $ INF: 0 $ OP1: 14 $ OP2: 11 $ INV: 1 $ CTIME: 19905 $ CLR: -1 $ CGB: 0 $ RGB: 1 $ CFGB: 1 $ RTIME: 839 $ dbcall success 
+learning_data $ EXP: a $ EXPID: a $ ID: a $ SESSION: 0 $ TRIAL: 2 $ P1: 0.75 $ P2: 0.25 $ MAG: 1 $ VAL: 1 $ INF: 0 $ OP1: 17 $ OP2: 24 $ INV: 0 $ CTIME: 23249 $ CLR: -1 $ CGB: 1 $ RGB: 1 $ CFGB: 0 $ RTIME: 877 $ dbcall success 
+learning_data $ EXP: a $ EXPID: a $ ID: a $ SESSION: 0 $ TRIAL: 3 $ P1: 0.75 $ P2: 0.25 $ MAG: 1 $ VAL: 1 $ INF: 0 $ OP1: 18 $ OP2: 2 $ INV: 1 $ CTIME: 27203 $ CLR: -1 $ CGB: 0 $ RGB: 0 $ CFGB: 1 $ RTIME: 3053 $ dbcall success 
