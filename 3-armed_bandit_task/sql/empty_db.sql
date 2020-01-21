@@ -2,7 +2,7 @@
 -- version 4.0.10.6
 -- http://www.phpmyadmin.net
 --
--- Host: 
+-- Host: mysql-risc.alwaysdata.net
 -- Generation Time: Oct 09, 2017 at 04:56 PM
 -- Server version: 10.1.23-MariaDB
 -- PHP Version: 5.6.16
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: ``
+-- Database: `risc_human_rl`
 --
 
 -- --------------------------------------------------------
