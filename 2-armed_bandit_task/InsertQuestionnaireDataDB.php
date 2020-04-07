@@ -13,7 +13,7 @@ $ANSWER = stripslashes(htmlspecialchars($_POST['ans']));
 $VAL = stripslashes(htmlspecialchars($_POST['val']));
 $RTIME = stripslashes(htmlspecialchars($_POST['reaction_time']));
 
-$stmt = $db->prepare("INSERT INTO questionnaire_data VALUE(?,?,?,?,?,?,?,?,?,NOW())");
+$stmt = $db->prepare("INSERT INTO sophie_questionnaire_data VALUE(?,?,?,?,?,?,?,?,?,NOW())");
 $stmt->bind_param("ssssiiiis",$EXP,$EXPID,$ID,$QUESTIONNAIRE,$NUMBER,$ITEM,$ANSWER,$VAL,$RTIME);
 $stmt->execute();
 $err = $stmt->errno ;

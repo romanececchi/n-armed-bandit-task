@@ -9,7 +9,7 @@ $EXP = stripslashes(htmlspecialchars($_POST['exp']));
 $BROW = stripslashes(htmlspecialchars($_POST['browser']));
 
 
-$stmt = $db->prepare("INSERT INTO experiment_data VALUE(?,?,?,?,NOW())");
+$stmt = $db->prepare("INSERT INTO sophie_experiment_data VALUE(?,?,?,?,NOW())");
 $stmt->bind_param("ssss",$EXPID,$ID,$EXP,$BROW);
 $stmt->execute();
 $err = $stmt->errno ;

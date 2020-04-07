@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `experiment_data`
 --
 
-CREATE TABLE IF NOT EXISTS `experiment_data` (
+CREATE TABLE IF NOT EXISTS `sophie_experiment_data` (
 `EXPID` varchar(20) NOT NULL,
 `ID` varchar(100) NOT NULL,
 `EXP` varchar(20) NOT NULL,
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `experiment_data` (
 -- Table structure for table `learning_data`
 --
 
-CREATE TABLE IF NOT EXISTS `learning_data` (
+CREATE TABLE IF NOT EXISTS `sophie_learning_data` (
 `EXP` varchar(20) NOT NULL,
 `EXPID` varchar(20) NOT NULL,
 `ID` varchar(100) NOT NULL,
@@ -58,15 +58,18 @@ CREATE TABLE IF NOT EXISTS `learning_data` (
 `SESSION` int(11) NOT NULL,
 `P1` double NOT NULL,
 `P2` double NOT NULL,
-`MAG1` double NOT NULL,
-`MAG2` double NOT NULL,
-`VAL` tinyint(4) NOT NULL,
-`INF` tinyint(4) NOT NULL,
+`MEAN1` double NOT NULL,
+`MEAN2` double NOT NULL,
+`VAR1` tinyint(4) NOT NULL,
+`VAR2` tinyint(4) NOT NULL,
+`VAL1` tinyint(4) NOT NULL,
+`VAL2` tinyint(4) NOT NULL,
+`INF1` tinyint(4) NOT NULL,
+`INF2` tinyint(4) NOT NULL,
 `OP1` int(11) NOT NULL,
 `OP2` int(11) NOT NULL,
 `V1` double NOT NULL,
 `V2` double NOT NULL,
-`INV` tinyint(4) NOT NULL,
 `CTIME` bigint(20) NOT NULL,
 `DBTIME` time NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -100,7 +103,7 @@ CREATE TABLE IF NOT EXISTS `learning_data` (
 -- Table structure for table `questionnaire_data`
 --
 
-CREATE TABLE IF NOT EXISTS `questionnaire_data` (
+CREATE TABLE IF NOT EXISTS `sophie_questionnaire_data` (
 `EXP` varchar(20) NOT NULL,
 `EXPID` varchar(20) NOT NULL,
 `ID` varchar(100) NOT NULL,
