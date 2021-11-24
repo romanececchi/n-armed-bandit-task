@@ -1,6 +1,6 @@
-# Generate a 2-armed bandit task
+# Generate a n-armed bandit task
 
-These files are used to generate a 2-armed bandit task, widely used in human decision making research. The task launches itself on any browser (desktop and mobile devices, with or without internet connection). Adapted from the tutorial of Uri Hertz on [Online Experiments Development](http://www.urihertz.net/projects.html).
+These files are used to generate a 2-armed or 3-armed bandit task, widely used in human decision making research. The task launches itself on any browser (desktop and mobile devices, with or without internet connection). Adapted from the tutorial of Uri Hertz on [Online Experiments Development](http://www.urihertz.net/projects.html).
 
 ## Getting Started
 
