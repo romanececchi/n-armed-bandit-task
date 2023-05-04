@@ -5,10 +5,21 @@
   font-family:Arial,Helvetica,Calibri,sans-serif;
 }
 
+#Main {
+  display: flex;
+  align-items: center;
+  height: 90%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
 .DivElements {
   margin-right: auto;
   margin-left: auto;
   display: block;
+  padding-bottom: 1.5em;
 }
 
 .col-centered {
